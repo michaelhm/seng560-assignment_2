@@ -38,27 +38,22 @@ def divide(a, b):
     return a / b
 
 def squareRoot(x):
-    if x is 0 or x is 1:
-        return x
-
-    i = 1; result = 1
-    while result <= x:
-        i += 1
-        result = i * i
-    return i -1
+    return x ** .5
 
     # TODO - Find the square root
 
-def exponent(a,expon):
+def exponent(base,expon):
     # TODO - raise to the power of
-    total = a; i = 1
+    total = base; 
+    i = 1
     while i < expon:
-        total *= a
+        total *= base
+        i += 1
     return total
 
 
 def convertToBinary(x):
-    # TODO - conver to binary
+    # TODO - convert to binary
     if type(x) is not int:
         raise Exception("Int not provided")
 
@@ -69,11 +64,9 @@ def convertToBinary(x):
         x = int(x / 2)
         i += 1
     returnString = ""
-    for j in range (i - 1, -1 -1):
-        returnString += binNum[j]
-
+    for j in range (i - 1, -1, -1):
+        returnString += str(binNum[j])
     return returnString
-        
 
 def convertToHex(x):
     # TODO - convert to hex
@@ -90,16 +83,17 @@ def convertToHex(x):
         else:
             hexaNum[i] = chr(temp + 55)
         i = i + 1
-        n = int(n /16)
+        x = int(x /16)
 
     j = i - 1
     returnString = ""
     while (j >= 0):
-        returnString += hexaNum[j]
+        returnString += str(hexaNum[j])
+        j = j - 1
     
     return returnString
 
-def converToOct(x):
+def convertToOct(x):
     # TODO - convert value to Octal
     if type(x) is not int:
         raise Exception("Int not provided")
@@ -114,7 +108,7 @@ def converToOct(x):
     
     returnString = ""
     for j in range (i -1, -1, -1):
-        returnString += octalNum[j]
+        returnString += str(octalNum[j])
 
     return returnString
 
