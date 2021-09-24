@@ -1,5 +1,4 @@
-# TODO - raise an exception in add/subtract/multiply/divide if a/b are not ints
-
+# TODO - raise an exception in add/subtract/multiply/divide if a/b are not ints, same in list additions,multiplcations, etc... 
 
 def addition(a, b):
     return a + b
