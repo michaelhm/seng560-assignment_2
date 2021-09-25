@@ -39,10 +39,7 @@ def divide(a, b):
 def squareRoot(x):
     return x ** .5
 
-    # TODO - Find the square root
-
 def exponent(base,expon):
-    # TODO - raise to the power of
     total = base; 
     i = 1
     while i < expon:
@@ -52,7 +49,6 @@ def exponent(base,expon):
 
 
 def convertToBinary(x):
-    # TODO - convert to binary
     if type(x) is not int:
         raise Exception("Int not provided")
 
@@ -68,7 +64,6 @@ def convertToBinary(x):
     return returnString
 
 def convertToHex(x):
-    # TODO - convert to hex
     if type(x) is not int:
         raise Exception("Int not provided")
     
@@ -93,7 +88,6 @@ def convertToHex(x):
     return returnString
 
 def convertToOct(x):
-    # TODO - convert value to Octal
     if type(x) is not int:
         raise Exception("Int not provided")
     

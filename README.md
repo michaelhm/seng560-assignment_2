@@ -45,3 +45,33 @@ I.e: item[0] * item[1] * item[n]
 items = [6,2,1]
 math560.multiplyList(items) # returns 12
 ```
+### Division
+Divides the two numbers together
+```
+math560.divide(6,2) # returns 3
+```
+### Square Root
+Finds the square root of the number
+```
+math560.squareRoot(9) # returns 3
+```
+### Exponent
+Raises the first number to the power of the second number. 
+```
+math560.exponent(2,3) # returns 8
+```
+### Convert to Binary
+Converts an integer to a binary string 
+```
+math560.convertToBinary(25) # returns "11001"
+```
+### Convert to Hexadecimal
+Converts an integer to a hexadecimal string
+```
+math560.convertToHex(123) # returns 7B
+```
+### Convert to Octal 
+Converst an integer to Octal string
+```
+math560.convertToOctal(25) # return "31"
+``` 
