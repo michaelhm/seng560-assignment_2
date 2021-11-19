@@ -4,7 +4,7 @@ The purpose of this repository is to perform arithmetic functions using another 
 
 To prove the reusability of the library, I have created a simple application which passes values of various number types to library functions.
 
-The library was very easy to integrate into my application and proved to be *black box* as I did not have to make any modifications to library soource code.
+The library was very easy to integrate into my application and proved to be *black box* as I did not have to make any modifications to library source code.
 
 ### Example of reuse implementation:
 ``a = 4``
