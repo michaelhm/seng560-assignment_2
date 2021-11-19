@@ -7,9 +7,6 @@ sys.path.insert(0, '../lib')
 
 import math560
 
-a = 4
-b = 4
-
 def calculation(operationName):
     switch={
         'add': math560.addition(a, b),
@@ -30,10 +27,14 @@ def print_result(operationName):
     else:
         print(f'{operationName} {a} and {b} is {result}')
 
-
+a = 4 #integer
+b = 0o04 #octal
 print_result('add')
-print_result('subtract')
 print_result('multiply')
 print_result('divide')
 print_result('sqrt')
 print_result('exponent')
+
+a = 0b11 #binary
+b = 0x02 #hexadecimal
+print_result('subtract')
