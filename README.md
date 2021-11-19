@@ -18,9 +18,9 @@ The library was very easy to integrate into my application and proved to be *bla
 *Python version 3.\*.\**
 
 ### Run app:
-clone repository
-
-``cd simple_app && python3 math_app.py`` or ``cd simple_app && python math_app.py``
+1. clone repository
+2. Open terminal/shell in cloned project folder
+3. Run from terminal/shell: ``cd simple_app && python3 math_app.py`` or ``cd simple_app && python math_app.py``
 
 ### Expected output:
 > add 4 and 4 is 8
