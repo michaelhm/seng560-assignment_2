@@ -1,8 +1,8 @@
 # SENG 560 - Programming Assignment 2 - Software Reuse
 
-The purpose of this repository is to perform arithmetic functions using another a library built by another student.
+The purpose of this repository is to perform arithmetic functions using a library built by another classmate.
 
-To prove the reusability of the library, I have created a simple application which passes values of various number types to library functions.
+To prove the reusability of the library, I have created a simple application which passes values of various number types to library functions and prints the results.
 
 The library was very easy to integrate into my application and proved to be *black box* as I did not have to make any modifications to library source code.
 
@@ -18,7 +18,7 @@ The library was very easy to integrate into my application and proved to be *bla
 *Python version 3.\*.\**
 
 ### Run app:
-1. clone repository
+1. Clone repository
 2. Open terminal/shell in cloned project folder
 3. Run from terminal/shell: ``cd simple_app && python3 math_app.py`` or ``cd simple_app && python math_app.py``
 
